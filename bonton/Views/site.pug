@@ -1,0 +1,119 @@
+doctype html
+html(lang='en', xmlns='http://www.w3.org/1999/xhtml')
+  head
+    meta(charset='utf-8')
+    meta(name='description', content='')
+    meta(name='author', content='')
+    meta(name='keywords', content='')
+    title Bonton Stores
+    link(rel='shortcut icon', type='image/png', href='assets/img/favicon.ico')
+    link(href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css', rel='stylesheet', integrity='sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7', crossorigin='anonymous')
+    link(rel='stylesheet', type='text/css', href='style.css')
+    title
+  body
+    .container
+      nav.navbar.navbar-default.navbar-static-top
+        .navbar-header.col-sm-12
+          a.navbar-brand(href='index.html')
+            img(src='assets/img/BNT_logo.png')
+        .navbar-header
+          button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#navbar', aria-expanded='false', aria-controls='navbar')
+            span.sr-only Toggle navigation
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+        #navbar
+          ul.nav.navbar-nav
+            li.active
+              a(href='index.html') Home
+            li
+              a(href='woman.html') Women
+            li
+              a(href='#about') Shoes
+            li
+              a(href='#contact') Handbags & Assessories
+            li
+              a(href='#about') Jewelry & Watches
+            li
+              a(href='#about') Beauty & Fragrance
+            li
+              a(href='#contact') Juniors
+            li
+              a(href='#about') Men
+            li
+              a(href='#contact') Baby & Kids
+            li
+              a(href='#about')  Furniture
+        // /.nav-collapse
+        .row
+          .col-sm-4
+            .input-group
+              input.form-control(type='text', placeholder='Keyword, Item#, or Web ID')
+              span.input-group-btn
+                button.btn.btn-default(type='button')
+                  | Search 
+                  span.glyphicon.glyphicon-search
+            // /input-group
+          // /.col-lg-6
+          .col-sm-2.col-sm-offset-6
+            span.glyphicon.glyphicon-shopping-cart
+            |                     Shoping Bag (0)
+        // /.row
+      // -------------------------------------------------
+      #carousel-example-generic.carousel.slide(data-ride='carousel')
+        // Indicators
+        ol.carousel-indicators
+          li.active(data-target='#carousel-example-generic', data-slide-to='0')
+          li(data-target='#carousel-example-generic', data-slide-to='1')
+          li(data-target='#carousel-example-generic', data-slide-to='2')
+        // Wrapper for slides
+        .carousel-inner(role='listbox')
+          .item.active
+            center
+              img(src='http://www.bonton.com/wcsstore/BonTon/images/homepage/2016/05/03/05_03_hp_long_slide1.jpg', alt='Power Sale. Wednesday, May 4. Save up to 50% off sitewide.')
+            .carousel-caption
+          .item
+            center
+              img(src='http://www.bonton.com/wcsstore/BonTon/images/homepage/2016/05/01/05_01_hp_long_slide3.jpg', alt='Clinique. Buy 1, try 2 Free.')
+            .carousel-caption
+          .item
+            center
+              img(src='http://www.bonton.com/wcsstore/BonTon/images/homepage/2016/05/01/05_01_hp_long_slide4_rl.jpg', alt='The World of Ralph Lauren. Links provided.')
+            .carousel-caption
+        // Controls
+        a.left.carousel-control(href='#carousel-example-generic', role='button', data-slide='prev')
+          span.glyphicon.glyphicon-chevron-left(aria-hidden='true')
+          span.sr-only Previous
+        a.right.carousel-control(href='#carousel-example-generic', role='button', data-slide='next')
+          span.glyphicon.glyphicon-chevron-right(aria-hidden='true')
+          span.sr-only Next
+      // ----------------------------------------------------------------------------------------
+      nav.navbar.navbar-fixed-bottom
+        .container
+          #navbar
+            ul.nav.navbar-nav
+              li
+                a(href='#') Credit Account
+              li
+                a(href='#contact') Find a Store
+              li
+                a(href='#about') Gift Cards
+              li
+                a(href='#contact') Gift Registry
+              li
+                a(href='#about') Today's Ad
+              li
+                a(href='#about') This Week In Stores
+              li
+                a(href='#contact') Careers
+              li
+                a(href='about.html') About Bon-Ton
+              li
+                a(href='#contact') Product Recalls
+              li
+                a(href='#about')  Your Privacy
+          // /.nav-collapse
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js')
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js')
+    script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js', integrity='sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS', crossorigin='anonymous')
+    script(src='Script.js')
