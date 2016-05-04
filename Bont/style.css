@@ -1,0 +1,30 @@
+﻿body
+{
+
+}
+
+.row_offers{
+    margin:20px;
+  
+}
+
+.aboutPictures{
+    margin:30px;
+}
+
+.gridPictures{
+    margin: 20px;
+    margin-top:30px;
+}
+
+
+.fixedButton {
+    position: sticky;
+}
+
+.itemPicture{
+    height: 500px;
+    width: 50%;
+    border:solid;
+    margin: 20px;
+}
