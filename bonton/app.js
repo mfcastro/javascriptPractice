@@ -11,8 +11,17 @@ app.set('view engine', 'pug'); // allows to set varialbes for express
 
 
 app.get('/', function (req, res) { //references the root route. '/' refers to that.
-	res.render('/site'); //regular JS object. Can be data from JSON file
+	res.render('index'); //regular JS object. Can be data from JSON file
 
+});
+
+
+app.get('/about', function (req, res) {
+	res.render('about');
+});
+
+app.get('/woman', function (req, res) {
+	res.render('woman');
 });
 
 //app.get('/woman', function (req, res) {
