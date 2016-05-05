@@ -1,0 +1,1 @@
+This site was built using express.js, pug, bootstrap. For the express.js I made a custom server instead of generating.

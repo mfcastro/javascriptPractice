@@ -9,9 +9,7 @@ html(lang='en', xmlns='http://www.w3.org/1999/xhtml')
     link(rel='shortcut icon', type='image/png', href='assets/img/favicon.ico')
     link(href='assets/css/simple-sidebar.css', rel='stylesheet')
     link(href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css', rel='stylesheet', integrity='sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7', crossorigin='anonymous')
-   
-    link(rel='stylesheet', type='text/css', href='style')
-
+    link(rel='stylesheet', type='text/css', href='style.css')
     title
   body
     .container
@@ -128,78 +126,44 @@ html(lang='en', xmlns='http://www.w3.org/1999/xhtml')
         // /#sidebar-wrapper
         // Page Content
         #page-content-wrapper
-          // -------------------------------------------------
-          #carousel-example-generic.carousel.slide(data-ride='carousel')
-            // Indicators
-            ol.carousel-indicators
-              li.active(data-target='#carousel-example-generic', data-slide-to='0')
-              li(data-target='#carousel-example-generic', data-slide-to='1')
-              li(data-target='#carousel-example-generic', data-slide-to='2')
-            // Wrapper for slides
-            .carousel-inner(role='listbox')
-              .item.active
-                center
-                  img(src='http://www.bonton.com/wcsstore/BonTon/images/categories/women/2016/05/gateway/05_01_gw_women_12ab_slide1.jpg', alt='')
-                .carousel-caption
-              .item
-                center
-                  img(src='http://www.bonton.com/wcsstore/BonTon/images/categories/women/2016/05/gateway/05_01_gw_women_12ab_slide3.jpg', alt='')
-                .carousel-caption
-              .item
-                center
-                  img(src='http://www.bonton.com/wcsstore/BonTon/images/categories/women/2016/05/gateway/05_01_gw_women_12ab_slide2.jpg', alt='')
-                .carousel-caption
-            // Controls
-            a.left.carousel-control(href='#carousel-example-generic', role='button', data-slide='prev')
-              span.glyphicon.glyphicon-chevron-left(aria-hidden='true')
-              span.sr-only Previous
-            a.right.carousel-control(href='#carousel-example-generic', role='button', data-slide='next')
-              span.glyphicon.glyphicon-chevron-right(aria-hidden='true')
-              span.sr-only Next
-          // ----------------------------------------------------------------------------------------
-          .row.gridPictures
-            .thumbnail.col-sm-4.pic
-              img(src='http://www.bonton.com/wcsstore/BonTon/images/categories/women/2016/05/gateway/05_01_gw_women_2c.jpg', alt='')
+          .row
             .thumbnail.col-sm-4
-              img(src='http://www.bonton.com/wcsstore/BonTon/images/categories/women/2016/05/gateway/05_01_gw_women_2d.jpg', alt='')
-            .thumbnail.col-sm-4
-              img(src='http://www.bonton.com/wcsstore/BonTon/images/categories/women/2016/05/gateway/05_01_gw_women_2e.jpg', alt='')
-            .thumbnail.col-sm-4
-              img(src='http://www.bonton.com/wcsstore/BonTon/images/categories/women/2016/05/gateway/05_01_gw_women_2f.jpg', alt='')
-            .thumbnail.col-sm-4
-              img(src='http://www.bonton.com/wcsstore/BonTon/images/categories/women/2016/05/gateway/05_01_gw_women_2g.jpg', alt='')
-            .thumbnail.col-sm-4
-              img(src='http://www.bonton.com/wcsstore/BonTon/images/categories/women/2016/05/gateway/05_01_gw_women_2h.jpg', alt='')
+              img(src='http://s7d4.scene7.com/is/image/BonTon/937395?$medium_245$', alt='')
+            .caption.col-sm-offset-3.col-sm-5
+              a
+                h5 Under Armour &reg; UA HeatGear &reg; Capri Leggings
+              h6 Price: $34.99
+          // ---------------------------------------------------------------------------------------------------------
+          nav.navbar.navbar-bottom
+            .container
+              #navbar
+                ul.nav.navbar-nav
+                  li
+                    a(href='#') Credit Account
+                  li
+                    a(href='#contact') Find a Store
+                  li
+                    a(href='#about') Gift Cards
+                  li
+                    a(href='#contact') Gift Registry
+                  li
+                    a(href='#about') Today's Ad
+                  li
+                    a(href='#about') This Week In Stores
+                  li
+                    a(href='#contact') Careers
+                  li
+                    a(href='/about') About Bon-Ton
+                  li
+                    a(href='#contact') Product Recalls
+                  li
+                    a(href='#about')  Your Privacy
+              // /.nav-collapse
         // /#page-content-wrapper
       // -------------------------------------------------------------------------------------------------------
-      // ---------------------------------------------------------------------------------------------------------
-      nav.navbar.navbar-bottom
-        .container
-          #navbar
-            ul.nav.navbar-nav
-              li
-                a(href='#') Credit Account
-              li
-                a(href='#contact') Find a Store
-              li
-                a(href='#about') Gift Cards
-              li
-                a(href='#contact') Gift Registry
-              li
-                a(href='#about') Today's Ad
-              li
-                a(href='#about') This Week In Stores
-              li
-                a(href='#contact') Careers
-              li
-                a(href='/about') About Bon-Ton
-              li
-                a(href='#contact') Product Recalls
-              li
-                a(href='#about')  Your Privacy
-          // /.nav-collapse
     script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js')
     script(src='https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js')
+    
     script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js', integrity='sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS', crossorigin='anonymous')
     // Menu Toggle Script
     script.
