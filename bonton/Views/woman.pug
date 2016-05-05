@@ -8,9 +8,10 @@ html(lang='en', xmlns='http://www.w3.org/1999/xhtml')
     title Bonton Stores
     link(rel='shortcut icon', type='image/png', href='assets/img/favicon.ico')
     link(href='assets/css/simple-sidebar.css', rel='stylesheet')
+    link(href='jquery-ui.css', rel='stylesheet')
     link(href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css', rel='stylesheet', integrity='sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7', crossorigin='anonymous')
    
-    link(rel='stylesheet', type='text/css', href='style')
+    link(rel='stylesheet', type='text/css', href='style.css')
 
     title
   body
@@ -158,17 +159,18 @@ html(lang='en', xmlns='http://www.w3.org/1999/xhtml')
               span.sr-only Next
           // ----------------------------------------------------------------------------------------
           .row.gridPictures
-            .thumbnail.col-sm-4.pic
-              img(src='http://www.bonton.com/wcsstore/BonTon/images/categories/women/2016/05/gateway/05_01_gw_women_2c.jpg', alt='')
-            .thumbnail.col-sm-4
+            .thumbnail.col-sm-4.view.view-first
+              a(href='/activewear')
+                img(src='http://www.bonton.com/wcsstore/BonTon/images/categories/women/2016/05/gateway/05_01_gw_women_2c.jpg', alt='')
+            .thumbnail.col-sm-4.view.view-first
               img(src='http://www.bonton.com/wcsstore/BonTon/images/categories/women/2016/05/gateway/05_01_gw_women_2d.jpg', alt='')
-            .thumbnail.col-sm-4
+            .thumbnail.col-sm-4.view.view-first
               img(src='http://www.bonton.com/wcsstore/BonTon/images/categories/women/2016/05/gateway/05_01_gw_women_2e.jpg', alt='')
-            .thumbnail.col-sm-4
+            .thumbnail.col-sm-4.view.view-first
               img(src='http://www.bonton.com/wcsstore/BonTon/images/categories/women/2016/05/gateway/05_01_gw_women_2f.jpg', alt='')
-            .thumbnail.col-sm-4
+            .thumbnail.col-sm-4.view.view-first
               img(src='http://www.bonton.com/wcsstore/BonTon/images/categories/women/2016/05/gateway/05_01_gw_women_2g.jpg', alt='')
-            .thumbnail.col-sm-4
+            .thumbnail.col-sm-4.view.view-first
               img(src='http://www.bonton.com/wcsstore/BonTon/images/categories/women/2016/05/gateway/05_01_gw_women_2h.jpg', alt='')
         // /#page-content-wrapper
       // -------------------------------------------------------------------------------------------------------
@@ -201,6 +203,9 @@ html(lang='en', xmlns='http://www.w3.org/1999/xhtml')
     script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js')
     script(src='https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js')
     script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js', integrity='sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS', crossorigin='anonymous')
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js')
+    script(src='jquery-ui.js')
+    script(src='script.js')
     // Menu Toggle Script
     script.
       $("#menu-toggle").click(function(e) {
